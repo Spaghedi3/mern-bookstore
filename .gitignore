@@ -1,0 +1,22 @@
+# Dependențe (se reinstalează cu npm install)
+node_modules/
+
+# Variabile de mediu - conțin secrete
+.env
+.env. local
+.env .*. local
+
+# Build-uri și rapoarte
+dist/
+build/
+coverage/
+
+# Jurnale
+npm-debug. log*
+yarn-debug. log*
+yarn-error. log*
+
+# Fişiere de sistem și de editor
+.DS_Store
+Thumbs.db
+.idea/
